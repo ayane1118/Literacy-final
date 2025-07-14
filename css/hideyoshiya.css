@@ -1,9 +1,54 @@
+body,
+.menu,
+.map,
+.menu-list,
+.menu-list li,
+.menu-item,
+.price {
+  font-family: 'Zen Kaku Gothic New', sans-serif !important;
+}
+
+.title{
+    margin-bottom: 2rem; 
+}
+
+.menu-list {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu-list li {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 1rem; 
+}
+
+.menu-item {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    flex-grow: 1;
+}
+
+.price {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    width: 60px;
+    text-align: right;
+}
+
 .map {
     width: 930px;
     max-width: 90%;
     margin-top: 75px;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .map iframe {
