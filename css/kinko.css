@@ -13,6 +13,24 @@ body,
     margin-bottom: 2rem; 
 }
 
+.main h1 {
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 50px;
+}
+
+.menu {
+  padding-top: 1px;
+  display: flow-root;
+}
+
+.menu h2 {
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
 .menu-list {
     font-family: "Zen Kaku Gothic New", sans-serif;
     max-height: 300px;
@@ -21,7 +39,9 @@ body,
     padding: 0;
     margin: 0;
     list-style: none;
-    background-color: #d3d3d3 ; 
+    background-color: #d3d3d3 ;
+    margin-left: 20px; 
+    margin-right: 20px;
 }
 
 .menu-list li {
@@ -30,6 +50,7 @@ body,
     justify-content: space-between;
     padding: 8px 12px;
     border-bottom: 1px solid #eee;
+    margin-top: 1rem; 
     margin-bottom: 1rem; 
     background-color: #d3d3d3 ; 
 }
@@ -47,6 +68,23 @@ body,
     background-color: #d3d3d3 ; 
 }
 
+.reviw {
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    line-height: 1.5;
+    margin-left: 20px; 
+    margin-right: 20px;
+    background-color: #d3d3d3;
+}
+
+.reviw h2 {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.reviw p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 
 .map {
     width: 930px;
@@ -62,4 +100,30 @@ body,
     width: 100%;
     height: 600px;
     margin-top: 25px;
+}
+
+.official {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #d3d3d3;
+}
+
+.official h2 {
+    margin-left: 20px; 
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.official a{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.footer{
+    background-color: #2B2A3E;
+    line-height: 1.5;
 }
