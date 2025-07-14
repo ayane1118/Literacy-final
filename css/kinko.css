@@ -6,6 +6,7 @@ body,
 .menu-item,
 .price {
   font-family: 'Zen Kaku Gothic New', sans-serif !important;
+  background-color: #c0c0c0; 
 }
 
 .title{
@@ -20,6 +21,7 @@ body,
     padding: 0;
     margin: 0;
     list-style: none;
+    background-color: #d3d3d3 ; 
 }
 
 .menu-list li {
@@ -29,17 +31,20 @@ body,
     padding: 8px 12px;
     border-bottom: 1px solid #eee;
     margin-bottom: 1rem; 
+    background-color: #d3d3d3 ; 
 }
 
 .menu-item {
     font-family: "Zen Kaku Gothic New", sans-serif;
     flex-grow: 1;
+    background-color: #d3d3d3 ; 
 }
 
 .price {
     font-family: "Zen Kaku Gothic New", sans-serif;
     width: 60px;
     text-align: right;
+    background-color: #d3d3d3 ; 
 }
 
 
