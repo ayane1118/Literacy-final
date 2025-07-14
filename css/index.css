@@ -9,7 +9,7 @@ nav.floating {
 
 .first-view {
     height: calc(100vh - 110px);
-    background-image: url(../images/index/bg_main.jpg);
+    background-image: url(../images/meijo_view.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -24,7 +24,7 @@ nav.floating {
     margin-right: auto;
     padding-left: 40ox;
     padding-bottom: 80px;
-    color: #ffffff;
+    color: #2B2A3E;
     font-weight: bold;
     text-shadow: 1px 1px 10px #4b2c14;
 }
@@ -67,7 +67,7 @@ body {
     font-size: 16pt;
     color: #000000;
     line-height: 1;
-    background-color: #ffffff;
+    background-color: #d3d3d3;
 }
 
 img {
@@ -184,7 +184,7 @@ img {
 }
 .footer {
     color: #ffffff;
-    background-color: #24211b;
+    background-color: #2B2A3E;
     padding-top: 30px;
     padding-bottom: 15px;
     display: flex;
