@@ -63,7 +63,6 @@ a {
 }
 
 body {
-    font-family: sans-serif;
     font-size: 16pt;
     color: #000000;
     line-height: 1;
@@ -202,4 +201,10 @@ img {
     font-size: 14pt;
     font-weight: bold;
     margin-top: 90px;
+}
+
+.lead p {
+    text-align: center; /* 文字を中央揃えにする */
+    font-size: 20 px;    /* 文字サイズを調整 */
+    padding: 40px 20px; /* 上下の余白を調整 */
 }
