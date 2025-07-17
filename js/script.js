@@ -24,10 +24,10 @@ $(function () {
 
 $(function() {
 const images = [
-    '../images/meijo_view.jpg',
-    '../images/meijo_view2.jpg',
-    '../images/meijo_view2.jpg',
-    '../images/meijo_view4.jpg'
+    'images/meijo_view.jpg',
+    'images/meijo_view2.jpg',
+    'images/meijo_view3.jpg',
+    'images/meijo_view4.jpg'
 ];
 
 let currentIndex = 0;
@@ -36,5 +36,5 @@ let currentIndex = 0;
 setInterval(function() {
     currentIndex = (currentIndex + 1) % images.length;
     $('.first-view').css('background-image', 'url(' + images[currentIndex] + ')');
-}, 5000);
+}, 3000);
 });
