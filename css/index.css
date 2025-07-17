@@ -15,6 +15,7 @@ nav.floating {
     background-size: cover;
     display: flex;
     align-items: center;
+    transition: background-image 1s ease-in-out;
 }
 
 .first-view-text {
