@@ -20,3 +20,21 @@ $(function () {
         500);
     });
 });
+
+
+$(function() {
+const images = [
+    '../images/meijo_view.jpg',
+    '../images/meijo_view2.jpg',
+    '../images/meijo_view2.jpg',
+    '../images/meijo_view4.jpg'
+];
+
+let currentIndex = 0;
+
+  // 5秒ごとに画像を切り替える
+setInterval(function() {
+    currentIndex = (currentIndex + 1) % images.length;
+    $('.first-view').css('background-image', 'url(' + images[currentIndex] + ')');
+}, 5000);
+});
