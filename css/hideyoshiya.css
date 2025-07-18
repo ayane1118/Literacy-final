@@ -13,7 +13,6 @@ body,
   position: relative;
   width: 100%;
   height: 110px;
-  background-image: url("images/英吉家.jpeg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -33,6 +32,12 @@ body,
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
+}
+
+.header-logo img {
+  width: 100%;
+  height: auto;
+  display: block; 
 }
 
 .header .site-menu ul li {
@@ -153,6 +158,11 @@ body,
 .footer{
     background-color: #2B2A3E;
     line-height: 1.5;
+}
+
+.footer a,
+footer:active{
+    color: #d3d3d3;
 }
 
 .footer .site-menu ul li {
