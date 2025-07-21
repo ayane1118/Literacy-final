@@ -46,6 +46,7 @@ nav.floating {
     margin: 60px auto;
 }
 
+
 *,
 ::before,
 ::after {
@@ -86,8 +87,18 @@ img {
     align-items: center;
 }
 
-.toggle-menu-button {
-    display: none;
+.header .toggle-menu-button {
+    display: block;
+    width: 44px;
+    height: 34px;
+    background-image: url(../images/icon-menu.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: none;
 }
 
 .header-logo {
